@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#e74c3c" >
+
+<TextView android:id="@+id/Connected"
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:textColor="#FFFFFF"
+	android:background="#d94839"
+	android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+	android:text="@string/teamname"  />
+<TextView
+    android:id="@+id/Rssi"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    	android:textColor="#FFFFFF"
+	android:background="#d94839"
+	android:layout_marginBottom="5dp"
+    android:text="@string/ko" />
+
+
+<TextView android:id="@+id/Ssid"
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	 	android:textColor="#FFFFFF"
+	android:background="#d94839"
+	android:layout_marginBottom="5dp"
+	android:text="@string/ko"  />
+
+<!--
+
+<TextView android:id="@+id/Bssid"
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/ko"  />
+	
+	-->
+
+<TextView android:id="@+id/Mac"
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	 	android:textColor="#FFFFFF"
+	android:background="#d94839"
+	android:layout_marginBottom="5dp"
+	android:text="@string/ko"  />
+
+<TextView android:id="@+id/Speed"
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	 	android:textColor="#FFFFFF"
+	android:background="#d94839"
+	android:layout_marginBottom="5dp"
+	android:text="@string/ko"  />
+<TextView
+        android:id="@+id/ipaddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+         	android:textColor="#FFFFFF"
+	android:background="#d94839"
+	android:layout_marginBottom="5dp"
+        android:text="@string/hello_world" />
+ <LinearLayout
+     android:orientation="horizontal"
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+    <Button
+	    android:id="@+id/button1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/btn_selector"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="5dp"
+	    android:text="@string/release"/>
+<Button
+	    android:id="@+id/button2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/btn_selector"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="5dp"
+	    android:text="@string/refresh"/>
+<Button
+	    android:id="@+id/button3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/btn_selector"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="5dp"
+	    android:text="@string/function"/>
+</LinearLayout>
+</LinearLayout>

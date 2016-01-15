@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ChinaNet</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="release">释放IP地址！</string>
+	<string name="ko">N/A</string>
+	<string name="teamname">未来开发者</string>
+	<string name="refresh">登录</string>
+	<string name="function">刷新</string>
+</resources>
