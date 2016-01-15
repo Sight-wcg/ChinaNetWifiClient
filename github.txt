@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-something test
-=======
-github test
->>>>>>> origin/master
